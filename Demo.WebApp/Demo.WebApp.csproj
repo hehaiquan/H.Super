@@ -106,8 +106,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scripts\ai.0.22.19-build00125.js" />
-    <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="scripts\vue.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -116,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\bootstrap-3.3.5\" />
+    <Folder Include="assets\font-awesome-4.6.3\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
