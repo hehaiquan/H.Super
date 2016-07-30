@@ -30,13 +30,13 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tpQrCode = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.btnGenerateQrCode = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.picBoxQRImage = new System.Windows.Forms.PictureBox();
-            this.txtSize = new System.Windows.Forms.TextBox();
             this.txtContent = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtSize = new System.Windows.Forms.TextBox();
+            this.picBoxQRImage = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnGenerateQrCode = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tpQrCode.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxQRImage)).BeginInit();
@@ -68,52 +68,6 @@
             this.tpQrCode.Text = "二维码";
             this.tpQrCode.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1001, 668);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // btnGenerateQrCode
-            // 
-            this.btnGenerateQrCode.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnGenerateQrCode.Location = new System.Drawing.Point(590, 91);
-            this.btnGenerateQrCode.Name = "btnGenerateQrCode";
-            this.btnGenerateQrCode.Size = new System.Drawing.Size(142, 48);
-            this.btnGenerateQrCode.TabIndex = 0;
-            this.btnGenerateQrCode.Text = "生成二维码";
-            this.btnGenerateQrCode.UseVisualStyleBackColor = true;
-            this.btnGenerateQrCode.Click += new System.EventHandler(this.btnGenerateQrCode_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "大小：";
-            // 
-            // picBoxQRImage
-            // 
-            this.picBoxQRImage.Location = new System.Drawing.Point(12, 145);
-            this.picBoxQRImage.Name = "picBoxQRImage";
-            this.picBoxQRImage.Size = new System.Drawing.Size(720, 290);
-            this.picBoxQRImage.TabIndex = 2;
-            this.picBoxQRImage.TabStop = false;
-            // 
-            // txtSize
-            // 
-            this.txtSize.Location = new System.Drawing.Point(67, 19);
-            this.txtSize.Name = "txtSize";
-            this.txtSize.Size = new System.Drawing.Size(100, 21);
-            this.txtSize.TabIndex = 3;
-            this.txtSize.Text = "4";
-            // 
             // txtContent
             // 
             this.txtContent.Location = new System.Drawing.Point(65, 64);
@@ -131,6 +85,52 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "内容：";
             // 
+            // txtSize
+            // 
+            this.txtSize.Location = new System.Drawing.Point(67, 19);
+            this.txtSize.Name = "txtSize";
+            this.txtSize.Size = new System.Drawing.Size(100, 21);
+            this.txtSize.TabIndex = 3;
+            this.txtSize.Text = "4";
+            // 
+            // picBoxQRImage
+            // 
+            this.picBoxQRImage.Location = new System.Drawing.Point(12, 145);
+            this.picBoxQRImage.Name = "picBoxQRImage";
+            this.picBoxQRImage.Size = new System.Drawing.Size(720, 290);
+            this.picBoxQRImage.TabIndex = 2;
+            this.picBoxQRImage.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(11, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 12);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "大小：";
+            // 
+            // btnGenerateQrCode
+            // 
+            this.btnGenerateQrCode.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnGenerateQrCode.Location = new System.Drawing.Point(590, 91);
+            this.btnGenerateQrCode.Name = "btnGenerateQrCode";
+            this.btnGenerateQrCode.Size = new System.Drawing.Size(142, 48);
+            this.btnGenerateQrCode.TabIndex = 0;
+            this.btnGenerateQrCode.Text = "生成二维码";
+            this.btnGenerateQrCode.UseVisualStyleBackColor = true;
+            this.btnGenerateQrCode.Click += new System.EventHandler(this.btnGenerateQrCode_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(741, 443);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -138,7 +138,7 @@
             this.ClientSize = new System.Drawing.Size(747, 469);
             this.Controls.Add(this.tabControl1);
             this.Name = "Main";
-            this.Text = "Main";
+            this.Text = " 4";
             this.tabControl1.ResumeLayout(false);
             this.tpQrCode.ResumeLayout(false);
             this.tpQrCode.PerformLayout();
